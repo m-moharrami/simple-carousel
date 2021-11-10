@@ -8,7 +8,7 @@ document.getElementById("carousel-button-prev").addEventListener('click', moveTo
 function hideAllSlides() {
     for (let slide of slides) {
         slide.classList.remove('carousel-item-visible');
-        slide.classlIst.add('carousel-item-hidden');
+        slide.classList.add('carousel-item-hidden');
     }
 }
 
